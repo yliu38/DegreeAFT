@@ -32,7 +32,7 @@ marker_kirc  <- kirc$marker      # vector of marker genes
 
 ### 2  Build a co‑expression network (WGCNA)
 ```r
-wgcna_net <- build_wgcna_net(exp_kirc_agg[marker_kirc, ])
+wgcna_net <- build_wgcna_net(exp_kirc_agg) # can use build_string_net(exp_kirc_agg) for string network
 ```
 `wgcna_net` includes:
 * `genes`    – gene symbols present in the network  
