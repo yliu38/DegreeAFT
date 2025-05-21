@@ -1,12 +1,23 @@
 Package: DegreeAFT
-Title: What the Package Does (One Line, Title Case)
+Title: Network-Regularised Survival Models
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Yang", "Liu", , "liuyang3489xyz@gmail.com", role = c("aut", "cre"))
+Description: AFT model with either Inverse Degree or Laplacian penalty to select features
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Imports:
+    Matrix,
+    survival,
+    future.apply,
+    igraph,
+    STRINGdb,
+    WGCNA,
+    tibble,
+    dplyr
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
