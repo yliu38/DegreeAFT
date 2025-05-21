@@ -1,5 +1,4 @@
-# DegreeAFT 
-# Quick‑Start Guide
+# DegreeAFT Quick‑Start Guide
 A lightweight **R** package for **network‑regularized accelerated failure‑time (AFT) survival modelling**.  
 DegreeAFT implements inverse‑degree so that biological network topology guides feature selection, improving interpretability and robustness in high‑dimensional omics studies. It also provides an option to use Laplacian penalty.
 
