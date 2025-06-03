@@ -104,10 +104,19 @@ The table lists all genes with non‑zero coefficients, sorted by effect size, a
 ---
 
 ## Citation
-If you use **DegreeAFT** in published work, please cite:
+If you use this tool in your work, please cite [https://doi.org/10.1101/2025.04.28.651033](https://doi.org/10.1101/2025.05.30.657087)
 
-```
-Liu Y et al. Network‑regularized accelerated failure‑time models improve biomarker discovery in cancer. bioRxiv, 2025.
+```bibtex
+@article{liuAFT2025,
+  title     = {NETWORK REGULARIZED ACCELERATED FAILURE TIME MODELS FOR ROBUST BIOMARKER IDENTIFICATION},
+  author    = {Liu, Yang and Huse, Jason T. and Kannan, Kasthuri},
+  year      = {2025},
+  journal   = {bioRxiv},
+  publisher = {Cold Spring Harbor Laboratory},
+  doi       = {10.1101/2025.05.30.657087},
+  url       = {https://doi.org/10.1101/2025.05.30.657087},
+  note      = {Preprint}
+}
 ```
 
 ---
